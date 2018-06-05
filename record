@@ -1,0 +1,10 @@
+第一步：初始化  git init
+第二步：1.使用  git add 把文件添加到暂存区
+        2.使用  git commit -m "<message>" 把文件存放到 master
+第三步：用      git status 查看工作区的状态
+        用      git diff <filename>  查看修改内容
+第四步：用      git reset --hard  commit_id  来回到指向的版本
+        用      git log 来查看提交的历史
+	用      git reflog 来查看命令历史
+第五步：git文件的经历步骤为   工作区--->add--->暂存区--->commit--->master  
+	注：git跟踪的并管理的是修改，而非文件。
