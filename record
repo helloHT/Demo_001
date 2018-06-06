@@ -8,3 +8,5 @@
 	用      git reflog 来查看命令历史
 第五步：git文件的经历步骤为   工作区--->add--->暂存区--->commit--->master  
 	注：git跟踪的并管理的是修改，而非文件。
+第六步：用      git checkout -- file  丢弃工作区的修改
+        用      git reset HEAD <file>  把已经添加到暂存区的文件放回工作区。
